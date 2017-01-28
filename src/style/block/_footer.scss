@@ -15,6 +15,10 @@ footer {
         padding-bottom: 0;
         font-size: 14px;
         border-right: 1px solid #fff;
+
+        @media (max-width: 768px) {
+          border: none;
+        }
       }
 
       &:last-child {
@@ -29,8 +33,12 @@ footer {
     margin-top: 10px;
     li {
       margin-right: 10px;
+
+      @media (max-width: 768px) {
+        float: left !important;
+      }
       a {
-        display: block;
+        display: inline-block;
         padding: 0;
         background-color: #fff;
         border-radius: 50%;

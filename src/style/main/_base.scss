@@ -10,8 +10,8 @@ body {
   max-width: $container;
 }
 
-menu, ul, ol {
-  list-style: none;
+menu, ul {
+  list-style: disc;
 }
 
 a, button {
@@ -313,5 +313,21 @@ h5 {
       width: 100% !important;
       max-width: none;
     }
+  }
+}
+
+.content-terms {
+  padding: 90px 0;
+
+  h2 {
+    font-size: 24px;
+  }
+
+  li, p {
+    font-size: 21px;
+  }
+
+  p {
+    margin-bottom: 15px;
   }
 }

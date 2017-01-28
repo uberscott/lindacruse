@@ -9,6 +9,10 @@ header {
       a {
         padding: 0 15px;
         border-right: 1px solid #fff;
+
+        @media (max-width: 768px) {
+          border: none;
+        }
       }
 
       &:last-child {

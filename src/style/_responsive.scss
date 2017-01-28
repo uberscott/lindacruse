@@ -1,0 +1,61 @@
+@media (max-width: 768px) {
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .content {
+    padding: 40px 0;
+  }
+
+  .hero-about {
+    min-height: 240px;
+  }
+
+  .header-splash {
+    font-size: 35px;
+  }
+
+  .content-splash {
+    padding: 90px 0;
+    
+    h2 {
+      color: #fff;
+    }
+  }
+
+  .btn-large {
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  footer {
+    .navbar-nav {
+      width: 100%;
+      margin: 15px 0;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  .navbar-brand {
+    font-size: 12px;
+  }
+
+  .header-splash {
+    font-size: 18px;
+
+    img {
+      max-width: 40px;
+    }
+  }
+
+  .content-splash {
+    padding: 40px 0;
+
+    h2 {
+      color: #fff;
+    }
+  }
+}
