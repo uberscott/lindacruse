@@ -10,3 +10,5 @@ build/
 *.sublime-project
 *.sublime-workspace
 .idea/
+readme.md
+README.md

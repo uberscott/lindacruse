@@ -211,6 +211,7 @@ h5 {
 }
 
 .entry-form {
+  font-size: 24px;
   padding: 30px;
   background-color: #f7f6f6;
 
@@ -247,6 +248,70 @@ h5 {
     li {
       font-weight: 400;
       margin-bottom: 40px;
+    }
+  }
+}
+
+.input-block {
+  padding: 0 15px;
+  margin-bottom: 15px;
+
+  label {
+    font-weight: 400;
+    margin: 0;
+    width: 40%;
+    float: left;
+  }
+
+  input {
+    width: 60%;
+    padding: 5px 15px;
+    border: 1px solid #7f7f7f;
+    float: left;
+  }
+
+  &:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+
+  @media (max-width: 768px) {
+    label, input {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
+.input-block-50 {
+  @extend .input-block;
+  width: 50%;
+  float: left;
+
+  label {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    float: none;
+    width: 100%;
+  }
+}
+
+.form-submit {
+  text-align: right;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @media (max-width: 768px) {
+    button {
+      width: 100% !important;
+      max-width: none;
     }
   }
 }
