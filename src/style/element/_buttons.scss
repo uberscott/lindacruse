@@ -1,0 +1,31 @@
+.btn {
+  padding: 15px 50px;
+  margin-bottom: 20px;
+}
+
+.btn-fixed-width {
+  width: 100%;
+  max-width: 225px;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $color-main;
+  font-size: 16px;
+  font-weight: bold;
+  
+  &:hover, &:focus {
+    background-color: lighten($color-main, 20%);
+    color: #fff;
+  }
+}
+
+.btn-large {
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

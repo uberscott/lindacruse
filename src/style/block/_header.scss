@@ -1,0 +1,30 @@
+header {
+  background-color: $color-main;
+  padding: 15px 0;
+
+  .navbar-nav {
+    margin-top: 15px;
+
+    li {
+      a {
+        padding: 0 15px;
+        border-right: 1px solid #fff;
+      }
+
+      &:last-child {
+         a {
+           border: none;
+         }
+      }
+    }
+
+  }
+}
+
+.header-splash {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 300;
+  color: #fff;
+  padding: 60px 0;
+}

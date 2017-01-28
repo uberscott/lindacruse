@@ -1,0 +1,23 @@
+{
+  "name": "test-gulp",
+  "version": "1.0.0",
+  "authors": [
+    "Alex Dolzenko <sitekarandash@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "bootstrap-sass": "*",
+    "fontawesome": "*"
+  },
+  "devDependencies": {
+    "compass-mixins": "*"
+  }
+}
