@@ -1,8 +1,8 @@
 version: '2'
 services:
   web:
-    build: .
+    image: actionhouse/lindacruse
     ports:
     - "80:80"
     volumes:
-    - ./html:/usr/share/nginx/html
+    - ./build:/usr/share/nginx/html
