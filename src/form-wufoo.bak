@@ -1,58 +1,9 @@
 <!-- doctype, styles, etc-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Race4Good</title>
-  <link href="css/font-awesome.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,700" rel="stylesheet">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-</head>
+//= templates/_head.html
 
 
 <!-- top menu, header, etc -->
-<body>
-<header>
-  <div class="container">
-    <nav class="navbar" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="">LINDA CRUSE I <strong>RACE4GOOD</strong></a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">ABOUT RACE4GOOD</a></li>
-            <li><a href="student.html">STUDENT PROFILE</a></li>
-            <li><a href="businessleader.html">BUSINESS LEADER PROFILE</a></li>
-            <li><a href="terms.html">TERMS & CONDITIONS</a></li>
-            <li><a href="jointherace.html">JOIN THE RACE</a></li>
-          </ul>
-
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-  </div>
-</header>
-<!-- header end -->
+//= templates/_header.html
 
 <section class="hero-form">
   <div class="container">
@@ -198,41 +149,4 @@
 </section>
 
 <!-- scripts, footer -->
-<footer>
-  <div class="container">
-      <nav class="navbar" role="navigation">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="">LINDA CRUSE I <strong>RACE4GOOD</strong></a>
-          </div>
-
-            <ul class="nav navbar-nav">
-              <li>© 2016  | All Right Reserved By LINDA CRUSE FRONTLINE</li>
-            </ul>
-
-
-            <ul class="nav navbar-nav navbar-social navbar-right">
-              <li><a href="https://www.facebook.com/lindacruse.bethechange"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="https://twitter.com/linda_cruse"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://www.instagram.com/frontlinelinda"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="terms.html">TERMS OF USE</a></li>
-              <li><a href="form-wufoo.html">JOIN THE RACE</a></li>
-              <li><a href="mailto:lindacruseintl@yahoo.com">CONTACT</a></li>
-            </ul>
-
-        </div><!-- /.container-fluid -->
-      </nav>
-  </div>
-</footer>
-<!-- footer end -->
-
-<!-- scripts -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
-</body>
-</html>
+//= templates/_footer.html
